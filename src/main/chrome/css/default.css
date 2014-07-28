@@ -1,0 +1,53 @@
+.options
+{
+	color: green;
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.title
+{
+	text-align: center;
+	font-weight:  bold;
+	
+}
+#loading
+{
+	text-align: center;
+	font-style: italic;
+	color: gray;
+
+}
+.list-group
+{
+text-align: center;
+
+}
+.main
+{
+
+	font-family: sans-serif;
+	font-size: 10px;
+	color: black;
+	white-space: nowrap;
+	width: 100%;
+
+}
+.status-offline
+{
+
+
+	background-color: red;
+}
+.status-online
+{
+
+
+	background-color: green;
+}
+.status-other
+{
+
+
+	background-color: yellow;
+}

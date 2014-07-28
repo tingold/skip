@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ingold</groupId>
+    <artifactId>skip</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>crx</packaging>
+    <inceptionYear>2014</inceptionYear>
+    <scm>
+        <url>scm:git:git://github.com/tingold/skip</url>
+    </scm>    
+    <contributors>
+        <contributor>
+            <name>Tom Ingold</name>
+            <email>tingold@boundlessgeo.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </contributor>
+    </contributors>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.btmatthews.maven.plugins</groupId>
+                <artifactId>crx-maven-plugin</artifactId>
+                <version>1.2.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <pemFile>test.pem</pemFile>
+                </configuration>
+            </plugin>
+          </plugins>
+    </build>
+</project>
